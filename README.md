@@ -1,5 +1,5 @@
-Date Range Picker
-=================
+Date Range Picker Jquery Plugin
+================================
 
 Date Range Picker jquery Plugin
 version 1.0
