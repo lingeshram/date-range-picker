@@ -1,4 +1,4 @@
-date-range-picker
+Date Range Picker
 =================
 
 Date Range Picker jquery Plugin
