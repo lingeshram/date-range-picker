@@ -78,11 +78,10 @@ function fromToDate(fromId,toId)
 		this.fromOnFocus = '';
 		this.fromOnBlur = '';
 		this.fromOnSelect = '';
-		this.fromOnClear = '';
 		this.toOnFocus = '';
 		this.toOnBlur = '';
 		this.toOnSelect = '';
-		this.toOnClear = '';
+		this.onReset = '';
 		
 		//internal variables
 		this.fromMinVal = {};
@@ -620,6 +619,12 @@ function fromToDate(fromId,toId)
 									that.toMonth = '';
 									that.toYear = '';
 									that.toDate = '';
+									
+									if(that.onReset!='')
+									{
+										that.onReset (this);
+									}
+									
 								});
 							}
 							else

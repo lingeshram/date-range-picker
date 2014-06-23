@@ -1,8 +1,7 @@
  $(function() {
  
 
- var globalResDates = new fromToDate("from-input","to-input");
-	globalResDates.monthFormat = 1;
+ var globalResDates = new fromToDate("from-input","to-input"); // create an object for from and to date range
 	globalResDates.initialize();
 	
 	
@@ -15,12 +14,12 @@
 	globalResDates1.stayMin = 3;
 	globalResDates1.stayMax = 5;
 	globalResDates1.useCookie = 0;
-	globalResDates1.monthFormat = 1;
 	globalResDates1.initialize();
 	
 	
-	// when user click submit button fetching date values
+	// when user click submit button fetching date values using created objects
 	$('#submit-date').click(function(){
+	
 	
 	console.log('from-time---' + globalResDates.fromTime);
 	console.log('from-day---' + globalResDates.fromDay);
