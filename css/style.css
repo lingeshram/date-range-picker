@@ -1,0 +1,114 @@
+/*customize date picker styles */
+body {
+  color: #444;
+  font: 12px/1.5 Arial,Helvetica,sans-serif;
+}
+.date-range-picker-footer {
+  font-size: 10.5px;
+}
+.date-range-picker-footer > span {
+  margin-right: 4px;
+}
+.ui-datepicker-header
+{
+	background-image:none;
+	background-color:#c13a02;
+	color:#fff;
+	border: 0;
+	border-radius: 0;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  border: 1px solid #c13a02;
+  width: 47%;
+  margin:2%;
+}
+.ui-datepicker-group.ui-datepicker-group-last {
+  margin-left: -1%;
+}
+.ui-datepicker-div-header {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 9px 11px 0;
+}
+.ui-datepicker-div-close {
+  padding: 0 2px 3px;
+}
+td.dp-highlight a.ui-state-default, .ui-widget-content .ui-state-default.ui-state-active, .ui-datepicker-unselectable.ui-state-disabled.dp-highlight .ui-state-default {
+  background-color: #c13a02;
+  background-image: none;
+  color: #fff;
+  text-decoration: none;
+}
+.ui-datepicker-unselectable.ui-state-disabled.dp-highlight
+{
+	opacity:1;
+}
+.ui-datepicker-unselectable.ui-state-disabled .ui-state-default {
+  background-image: none;
+  background-color: #e7e7e7;
+}
+.ui-widget-content .ui-state-default {
+  background-color: #9ed1ff;
+  background-image: none;
+}
+.ui-widget-content a.ui-state-default:hover
+{
+	 background-color: #c13a02;
+	 color: #fff;
+}
+.ui-datepicker-div-footer {
+  margin: 0 5px;
+}
+.date-range-picker-footer .unavailableCaption span
+{
+	background-color:#e7e7e7;
+}
+.date-range-picker-footer .selectedCaption span {
+  background-color: #c13a02;
+}
+.date-range-picker-footer > span {
+  margin-right: 10px;
+}
+.date-range-picker-footer .ui-state-default {
+  margin-right: 2px;
+}
+
+.ui-datepicker-div-reset {
+  color: #c13a02;
+  font-size: 11px;
+  margin-bottom: 14px;
+}
+.ui-datepicker.ui-datepicker-multi {
+  border: 1px solid #c13a02;
+}
+.ui-widget-header a.ui-datepicker-next, .ui-widget-header a.ui-datepicker-prev
+{
+	background:url("images/sprite.png") no-repeat 2px 3px;
+}
+
+.ui-widget-header a.ui-datepicker-prev
+{
+	background-position:1px -18px;
+}
+
+.ui-widget-header .ui-icon
+{
+	background: none;
+	border:0;	
+}
+
+.ui-datepicker-div-close {
+  background: url("images/sprite.png") no-repeat 0 -51px;
+  border: 0 none;
+  padding: 4px 10px;
+  text-indent: -9999px;
+}
+
+@media screen and (max-width: 630px) {
+
+.ui-datepicker-div-header
+{
+	margin-bottom:5px;
+}
+
+}
