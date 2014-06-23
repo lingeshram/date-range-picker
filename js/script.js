@@ -18,6 +18,8 @@
 	globalResDates1.monthFormat = 1;
 	globalResDates1.initialize();
 	
+	
+	// when user click submit button fetching date values
 	$('#submit-date').click(function(){
 	
 	console.log('from-time---' + globalResDates.fromTime);
@@ -49,8 +51,3 @@
 	});
 	
 });
-
-function testtest(e)
-{
-	console.log(e);
-}
