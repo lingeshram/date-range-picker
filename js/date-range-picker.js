@@ -98,10 +98,12 @@ function fromToDate(fromId,toId)
 						
 			this.mobileView();
 			
-			$(window).resize(function(){
-			
-				that.mobileView();
-			
+			$(window).resize(function(){				
+				$('#' + that.to).datepicker("hide");
+				$('#' + that.from).datepicker("hide");
+				$('#' + that.to).blur();
+				$('#' + that.from).blur();				
+				that.mobileView();			
 			});
 			
 			
