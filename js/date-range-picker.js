@@ -115,7 +115,7 @@ function fromToDate(fromId,toId)
 			
 			//set default date values for from
 			this.setFromDateOption({
-			
+				"firstDay": 0,
 				"minDate":this.fromMinVal,
 				"maxDate":this.fromMaxVal,
 				"onSelect": this.fromOnSelectFunc,
@@ -124,7 +124,7 @@ function fromToDate(fromId,toId)
 			
 			//set default date values for to	
 			this.setToDateOption({
-			
+				"firstDay": 0,
 				"minDate":this.toMinVal,
 				"maxDate":this.toMaxVal,
 				"onSelect": this.toOnSelectFunc,
