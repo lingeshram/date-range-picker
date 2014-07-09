@@ -49,7 +49,7 @@ $.datepicker.regional['en'] = {
 			toTitle: 'Check Out (e.g. Mon-DD-YYYY)',
 			fromPlaceholder: 'Check In',
 			toPlaceholder: 'Check Out',
-			firstDay: 1,
+			firstDay: 0,
 			isRTL: false,
 			showMonthAfterYear: false,
 			yearSuffix: ''};
@@ -77,7 +77,7 @@ $.datepicker.regional['de'] = {
 			toTitle: 'Abreise (e.g. Mon-DD-YYYY)',
 			fromPlaceholder: 'Anreise',
 			toPlaceholder: 'Abreise',
-			firstDay: 1,
+			firstDay: 0,
 			isRTL: false,
 			showMonthAfterYear: false,
 			yearSuffix: ''};
@@ -105,7 +105,7 @@ $.datepicker.regional['fr'] = {
 			toTitle: 'Départ (e.g. Mon-DD-YYYY)',
 			fromPlaceholder: 'Arrivée',
 			toPlaceholder: 'Départ',
-			firstDay: 1,
+			firstDay: 0,
 			isRTL: false,
 			showMonthAfterYear: false,
 			yearSuffix: ''};
@@ -136,7 +136,7 @@ $.datepicker.regional['gb-en'] = {
 			toTitle: 'Check Out (e.g. DD-Mon-YYYY)',
 			fromPlaceholder: 'Check-In Date',
 			toPlaceholder: 'Check-Out Date',
-			firstDay: 1,
+			firstDay: 0,
 			isRTL: false,
 			showMonthAfterYear: false,
 			yearSuffix: ''};		
@@ -164,7 +164,7 @@ $.datepicker.regional['zh'] = {
 			toTitle: '退房日期（格式：月-日-年）',
 			fromPlaceholder: '入住',
 			toPlaceholder: '离店',
-			firstDay: 1,
+			firstDay: 0,
 			isRTL: false,
 			showMonthAfterYear: true,
 			yearSuffix: '年'};
@@ -192,7 +192,7 @@ $.datepicker.regional['es'] = {
 			toTitle: 'Fecha de salida (e.g. Mon-DD-YYYY)',
 			fromPlaceholder: 'Fecha de entrada',
 			toPlaceholder: 'Fecha de salida',
-			firstDay: 1,
+			firstDay: 0,
 			isRTL: false,
 			showMonthAfterYear: false,
 			yearSuffix: ''};
